@@ -75,7 +75,7 @@ public class TesteQuick1 {
 		
 		long resultado = fim - inicio;
 		
-		System.out.println("BubbleSort: "+(resultado)+" nanossegundos");
+		System.out.printf("BubbleSort: %.9f s%n",(resultado)/1_000_000_000.0);
 		
 		inicio = System.nanoTime();
 		
@@ -85,7 +85,7 @@ public class TesteQuick1 {
 		
 		resultado = fim - inicio;
 		
-		System.out.println("MergeSort: "+(resultado)+" nanossegundos");
+		System.out.printf("MergeSort: %.9f s%n",(resultado)/1_000_000_000.0);
 		
 		inicio = System.nanoTime();
 		
@@ -95,7 +95,7 @@ public class TesteQuick1 {
 		
 		resultado = fim - inicio;
 		
-		System.out.println("QuickSort: "+(resultado)+" nanossegundos");
+		System.out.printf("QuickSort: %.9f s%n",(resultado)/1_000_000_000.0);
 		
 		
 		
